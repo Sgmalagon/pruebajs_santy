@@ -1,43 +1,72 @@
-.container {
-    max-width: 400px;
-    margin: auto;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+body {
+    background-color: #1c1c1c;
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
 }
-.container-fluid{
-    width: 70%;
+
+.container {
+    background-color: #333;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
 }
 
 h2 {
-    text-align: center;
+    color: #ffcc00; /* Amarillo para steampunk */
 }
 
 label {
-    font-weight: bold;
+    color: #ffcc00;
 }
 
-input[type="text"],
-input[type="email"],
-input[type="password"] {
-    width: 100%;
-    padding: 10px;
-    margin: 5px 0;
-    border: 1px solid #ccc;
-    border-radius: 3px;
+input,
+select {
+    background-color: #2d2d2d;
+    color: #fff;
+    border: 1px solid #ffcc00;
+    border-radius: 5px;
+    padding: 8px;
+    margin-bottom: 10px;
 }
 
 button {
-    width: 100%;
-    padding: 10px;
-    background-color: #007BFF;
-    color: #fff;
+    background-color: #ffcc00;
+    color: #333;
     border: none;
-    border-radius: 3px;
+    padding: 10px 20px;
+    border-radius: 5px;
     cursor: pointer;
+    margin-top: 10px;
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #ffd633; /* Cambio de color al pasar el mouse para steampunk */
+}
+
+.table {
+    color: #fff;
+}
+
+/* Agrega más estilos según sea necesario para personalizar aún más tu formulario */
+/* Añade estos estilos para la tabla y las celdas */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #555;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #333;
+    color: #fff;
+}
+
+/* Estilo adicional para resaltar filas al pasar el mouse */
+tr:hover {
+    background-color: #555;
 }
